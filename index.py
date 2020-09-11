@@ -131,13 +131,14 @@ def main():
     if(args["method"] == "3"):
           delete()
     else:
-        print("method does not match: enroll or search")
+        print("""
+            path to input method:
+            \n0: Check  - Shows the template index table\n1: Enroll - Enrolls new finger\n2: Search - Search for a finger\n3: Delete - Deletes a finger from sensor")
 
 
 
 if __name__ == "__main__":
     try:
-        # print("path to input method:\n0: Check  - Shows the template index table\n1: Enroll - Enrolls new finger\n2: Search - Search for a finger\n3: Delete - Deletes a finger from sensor")
         main()
     except:
         raise
