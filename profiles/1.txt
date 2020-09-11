@@ -1,0 +1,8 @@
+StudentID: 18IT230
+Name: Nguyễn Thị Tịnh Nghi
+Class: 18IT4
+School: VKU
+Faculty: Khoa học máy tính
+Room: B304
+Phone: 0335556655
+Email: nttnghi.18it4@vku.udn.vn

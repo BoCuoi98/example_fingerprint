@@ -1,0 +1,8 @@
+﻿StudentID: 18IT224
+Name: Nguyễn Hương Mai
+Class: 18IT4
+School: VKU
+Faculty: Khoa học máy tính
+Room: B304
+Phone: 0905579253
+Email: nhmai.18it4@vku.udn.vn
