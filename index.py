@@ -46,7 +46,9 @@ def enroll():
     Phone = input("Phone: ")
     Email = input("Email: ")
 
-    file = open('profiles/2.txt', 'w', encoding='UTF8')
+    f.createTemplate()
+
+    file = open('profiles/' + str(positionNumber) + '.txt', 'w', encoding='UTF8')
     file.writelines(
         "StudentID: " + StudenID +
         "\nName: " + Name +
@@ -59,7 +61,6 @@ def enroll():
     )
     file.close()
 
-    f.createTemplate()
     positionNumber = f.storeTemplate()
     print('Finger enrolled successfully!')
     print('New template position #' + str(positionNumber))
